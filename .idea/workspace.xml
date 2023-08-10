@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="986cf931-8ef9-40a3-811c-dc5a295f3430" name="Changes" comment="Micron: Add REST-POST">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charter1/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="986cf931-8ef9-40a3-811c-dc5a295f3430" name="Changes" comment="Micron: Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2TmvyqDhBv8ix994KO1Vz21LHEe" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -51,6 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/kohdy/IdeaProjects/SpringMVCApp1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.LicensingServiceApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="charter1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.iooko.ch1.Application" />
@@ -70,6 +70,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LicensingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="licensing-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.iooko.licensingservice.LicensingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691661327280</updated>
-      <workItem from="1691661328699" duration="7147000" />
+      <workItem from="1691661328699" duration="8865000" />
     </task>
     <task id="LOCAL-00001" summary="Micron: Add first Charter">
       <created>1691670378425</created>
@@ -111,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691674676640</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Micron: Initial Commit">
+      <created>1691675556877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691675556877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +137,7 @@
     <MESSAGE value="Micron: Add first Charter" />
     <MESSAGE value="Micron: Add REST-GET" />
     <MESSAGE value="Micron: Add REST-POST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Micron: Add REST-POST" />
+    <MESSAGE value="Micron: Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Micron: Initial Commit" />
   </component>
 </project>
