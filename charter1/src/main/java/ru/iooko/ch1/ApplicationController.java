@@ -15,6 +15,11 @@ public class ApplicationController {
         return String.format("{\"message\":\"Hello %s %s\"}", firstName, lastName);
     }
 
+    @PostMapping
+    public HelloRequest helloPOST(@RequestBody HelloRequest helloRequest) {
+        return helloRequest;
+    }
+
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public String hello() {

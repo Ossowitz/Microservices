@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="986cf931-8ef9-40a3-811c-dc5a295f3430" name="Changes" comment="Micron: Add first Charter">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charter1/src/main/java/ru/iooko/ch1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charter1/src/main/java/ru/iooko/ch1/ApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charter1/src/main/java/ru/iooko/ch1/HelloRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="986cf931-8ef9-40a3-811c-dc5a295f3430" name="Changes" comment="Micron: Add REST-GET">
+      <change beforePath="$PROJECT_DIR$/charter1/src/main/java/ru/iooko/ch1/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/charter1/src/main/java/ru/iooko/ch1/ApplicationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691661327280</updated>
-      <workItem from="1691661328699" duration="6098000" />
+      <workItem from="1691661328699" duration="6429000" />
     </task>
     <task id="LOCAL-00001" summary="Micron: Add first Charter">
       <created>1691670378425</created>
@@ -100,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691670378425</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Micron: Add REST-GET">
+      <created>1691674389223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691674389223</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +113,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Micron: Add first Charter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Micron: Add first Charter" />
+    <MESSAGE value="Micron: Add REST-GET" />
+    <option name="LAST_COMMIT_MESSAGE" value="Micron: Add REST-GET" />
   </component>
 </project>
