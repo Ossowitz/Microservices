@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="986cf931-8ef9-40a3-811c-dc5a295f3430" name="Changes" comment="Micron: Initial charter2">
-      <change afterPath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/license/controller/LicenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/license/model/License.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/license/service/LicenseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licansing-service/src/main/resources/messages_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/licansing-service/src/main/resources/messages_es.properties" afterDir="false" />
+    <list default="true" id="986cf931-8ef9-40a3-811c-dc5a295f3430" name="Changes" comment="Micron: Initial commit about charter2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licansing-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/licansing-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/licensingservice/LicensingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/license/LicensingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licansing-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/licansing-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licansing-service/src/test/java/ru/iooko/licensingservice/LicensingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/licansing-service/src/test/java/ru/iooko/license/LicensingServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/license/controller/LicenseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/license/controller/LicenseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/license/service/LicenseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/licansing-service/src/main/java/ru/iooko/license/service/LicenseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691661327280</updated>
-      <workItem from="1691661328699" duration="21665000" />
+      <workItem from="1691661328699" duration="24433000" />
     </task>
     <task id="LOCAL-00001" summary="Micron: Add first Charter">
       <created>1691670378425</created>
@@ -147,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691678791190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Micron: Initial commit about charter2">
+      <created>1691752488177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691752488177</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +172,7 @@
     <MESSAGE value="Micron: Add REST-POST" />
     <MESSAGE value="Micron: Initial Commit" />
     <MESSAGE value="Micron: Initial charter2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Micron: Initial charter2" />
+    <MESSAGE value="Micron: Initial commit about charter2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Micron: Initial commit about charter2" />
   </component>
 </project>
