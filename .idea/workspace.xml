@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="986cf931-8ef9-40a3-811c-dc5a295f3430" name="Changes" comment="Micron: Add Locale">
+    <list default="true" id="37375d51-df37-44a5-8f5b-923822f38dd0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,19 +15,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/licansing-service" />
-    <option name="ROOT_SYNC" value="SYNC" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -33,26 +25,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2TmvyqDhBv8ix994KO1Vz21LHEe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2TqKIvXOynKc4GSKSd582A6pVrx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/kohdy/IdeaProjects/Microservices/licansing-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,25 +43,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kohdy\IdeaProjects\Microservices\licansing-service\src\main\resources" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Spring Boot.LicensingServiceApplication">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="charter1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.iooko.ch1.Application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.iooko.ch1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="LicensingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="licensing-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.iooko.license.LicensingServiceApplication" />
@@ -87,98 +51,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Application" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="986cf931-8ef9-40a3-811c-dc5a295f3430" name="Changes" comment="" />
-      <created>1691661327280</created>
+      <changelist id="37375d51-df37-44a5-8f5b-923822f38dd0" name="Changes" comment="" />
+      <created>1691765094204</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691661327280</updated>
-      <workItem from="1691661328699" duration="26481000" />
+      <updated>1691765094204</updated>
+      <workItem from="1691765095598" duration="613000" />
     </task>
-    <task id="LOCAL-00001" summary="Micron: Add first Charter">
-      <created>1691670378425</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691670378425</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Micron: Add REST-GET">
-      <created>1691674389223</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691674389223</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Micron: Add REST-POST">
-      <created>1691674676640</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691674676640</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Micron: Initial Commit">
-      <created>1691675556877</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1691675556877</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Micron: Initial charter2">
-      <created>1691678791190</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1691678791190</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Micron: Initial commit about charter2">
-      <created>1691752488177</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1691752488177</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Micron: Add Locale">
-      <created>1691755421371</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1691755421371</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Micron: Add first Charter" />
-    <MESSAGE value="Micron: Add REST-GET" />
-    <MESSAGE value="Micron: Add REST-POST" />
-    <MESSAGE value="Micron: Initial Commit" />
-    <MESSAGE value="Micron: Initial charter2" />
-    <MESSAGE value="Micron: Initial commit about charter2" />
-    <MESSAGE value="Micron: Add Locale" />
-    <option name="LAST_COMMIT_MESSAGE" value="Micron: Add Locale" />
   </component>
 </project>
