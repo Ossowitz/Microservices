@@ -4,26 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37375d51-df37-44a5-8f5b-923822f38dd0" name="Changes" comment="Initial Commit" />
+    <list default="true" id="fcec2eb6-ab3f-42ee-8d83-09b00ab52990" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charter1/charter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/charter1/charter/src/main/java/ru/iooko/ch1/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/charter1/charter/src/main/java/ru/iooko/ch1/ApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/charter1/charter/src/main/java/ru/iooko/ch1/HelloRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/charter1/charter/src/main/resources/application.yml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-jenkins-test" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2TqKIvXOynKc4GSKSd582A6pVrx" />
+  <component name="ProjectId" id="2TqPOHnX4WHWpUFGqt5ejmNeI36" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,18 +43,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/kohdy/IdeaProjects/JavaCore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "spring.configuration.checksum": "dd68426e31d78d2c5592c8ec197aa1b0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="LicensingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="licensing-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.iooko.license.LicensingServiceApplication" />
+    <configuration name="SpringJenkinsTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-jenkins-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="us.ossowitz.springjenkinstest.SpringJenkinsTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -53,48 +66,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="37375d51-df37-44a5-8f5b-923822f38dd0" name="Changes" comment="" />
-      <created>1691765094204</created>
+      <changelist id="fcec2eb6-ab3f-42ee-8d83-09b00ab52990" name="Changes" comment="" />
+      <created>1691767603138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691765094204</updated>
-      <workItem from="1691765095598" duration="973000" />
+      <updated>1691767603138</updated>
+      <workItem from="1691767604589" duration="23000" />
+      <workItem from="1691935141243" duration="13000" />
+      <workItem from="1691935865156" duration="5000" />
+      <workItem from="1691935878804" duration="23000" />
+      <workItem from="1691942705294" duration="2000" />
+      <workItem from="1691942711737" duration="2000" />
+      <workItem from="1693936115136" duration="1223000" />
+      <workItem from="1693937852581" duration="1334000" />
+      <workItem from="1693941473206" duration="784000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <created>1691766340854</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691766340854</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial Commit">
-      <created>1691766592734</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691766592734</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
