@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcec2eb6-ab3f-42ee-8d83-09b00ab52990" name="Changes" comment="Add JenkinsTest module">
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/us/ossowitz/springjenkinstest/SpringJenkinsTestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/us/ossowitz/springjenkinstest/SpringJenkinsTestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bf17fbbd-cd08-436a-8e2c-e578d385963b" name="Changes" comment="Add parent of modules">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +28,16 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2TqPOHnX4WHWpUFGqt5ejmNeI36" />
+  <component name="ProjectId" id="2YgCUClOx6Oj7mk9Q08Vo9yegHK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -54,69 +51,47 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/kohdy/IdeaProjects/JavaCore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
-    "spring.configuration.checksum": "dd68426e31d78d2c5592c8ec197aa1b0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kohdy\IdeaProjects\Microservices" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="SpringJenkinsTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Microservices" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="us.ossowitz.springjenkinstest.SpringJenkinsTestApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="us.ossowitz.springjenkinstest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-jenkins-test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.SpringJenkinsTestApplication" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-jenkins-test" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fcec2eb6-ab3f-42ee-8d83-09b00ab52990" name="Changes" comment="" />
-      <created>1691767603138</created>
+      <changelist id="bf17fbbd-cd08-436a-8e2c-e578d385963b" name="Changes" comment="" />
+      <created>1700937849290</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691767603138</updated>
-      <workItem from="1691767604589" duration="23000" />
-      <workItem from="1691935141243" duration="13000" />
-      <workItem from="1691935865156" duration="5000" />
-      <workItem from="1691935878804" duration="23000" />
-      <workItem from="1691942705294" duration="2000" />
-      <workItem from="1691942711737" duration="2000" />
-      <workItem from="1693936115136" duration="1223000" />
-      <workItem from="1693937852581" duration="1334000" />
-      <workItem from="1693941473206" duration="1179000" />
+      <updated>1700937849290</updated>
+      <workItem from="1700937850782" duration="2095000" />
     </task>
-    <task id="LOCAL-00001" summary="Add JenkinsTest module">
-      <created>1694024708174</created>
+    <task id="LOCAL-00001" summary="Add parent of modules">
+      <created>1697584115141</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1694024708174</updated>
+      <updated>1697584115141</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -128,7 +103,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add JenkinsTest module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JenkinsTest module" />
+    <MESSAGE value="Add parent of modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add parent of modules" />
   </component>
 </project>
