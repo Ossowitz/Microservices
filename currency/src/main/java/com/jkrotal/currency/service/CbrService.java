@@ -33,7 +33,6 @@ public class CbrService {
 
     public BigDecimal requestByCurrentCode(String code) {
         try {
-            // Сначала пытаемся получить значение из кеша
             return cache.get(LocalDate.now(), this::callAllByCurrentDate).get(code);
         } catch (ExecutionException e) {
             throw new RuntimeException(e);

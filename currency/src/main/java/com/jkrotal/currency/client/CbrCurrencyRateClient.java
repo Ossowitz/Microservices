@@ -1,5 +1,7 @@
 package com.jkrotal.currency.client;
 
+import com.jkrotal.currency.config.CurrencyClientCfg;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -12,15 +14,18 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 @Component
+@RequiredArgsConstructor
 public class CbrCurrencyRateClient implements HttpCurrencyDateRateClient {
 
     public static final String DATE_PATTERN = "dd/MM/yyyy";
 
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern(DATE_PATTERN);
 
+    private final CurrencyClientCfg clientCfg;
+
     @Override
     public String requestByDate(LocalDate date) {
-        String baseUrl = "https://www.cbr.ru/scripts/XML_daily.asp";
+        String baseUrl = clientCfg.getUrl();
         HttpClient client = HttpClient.newHttpClient();
         String url = buildUriRequest(baseUrl, date);
         try {
