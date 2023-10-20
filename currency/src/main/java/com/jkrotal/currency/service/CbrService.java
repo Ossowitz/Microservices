@@ -4,6 +4,8 @@ import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.jkrotal.currency.client.HttpCurrencyDateRateClient;
 import com.jkrotal.currency.schema.ValCurs;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import javax.xml.bind.JAXBContext;
@@ -22,6 +24,8 @@ import static java.util.stream.Collectors.toMap;
 @Service
 public class CbrService {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(CbrService.class);
+
     private final Cache<LocalDate, Map<String, BigDecimal>> cache;
 
     private final HttpCurrencyDateRateClient client;
@@ -32,6 +36,7 @@ public class CbrService {
     }
 
     public BigDecimal requestByCurrentCode(String code) {
+        LOGGER.info("Request service by currency code {}", code);
         try {
             return cache.get(LocalDate.now(), this::callAllByCurrentDate).get(code);
         } catch (ExecutionException e) {
