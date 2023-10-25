@@ -1,4 +1,4 @@
-package com.jkrotal;
+package com.jkrotal.currency;
 
 import com.jkrotal.currency.config.CurrencyClientCfg;
 import org.springframework.boot.SpringApplication;

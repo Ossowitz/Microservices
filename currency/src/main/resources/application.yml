@@ -1,6 +1,11 @@
 server:
   port: 8085
 
+
 currency:
   client:
     url: "https://www.cbr.ru/scripts/XML_daily.asp"
+
+spring:
+  application:
+    name: currency-rate-service
