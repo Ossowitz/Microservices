@@ -17,7 +17,7 @@ import java.time.format.DateTimeFormatter;
 @RequiredArgsConstructor
 public class CbrCurrencyRateClient implements HttpCurrencyDateRateClient {
 
-    public static final String DATE_PATTERN = "dd/MM/yyyy";
+    private static final String DATE_PATTERN = "dd/MM/yyyy";
 
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern(DATE_PATTERN);
 
