@@ -15,15 +15,11 @@ public class AccountService {
 
     private final AccountRepository accountRepository;
 
-    private final ResolveUserService userService;
-
     @Transactional
     public AccountEntity createNewAccount(NewAccountDTO dto) {
-        Long userId = userService.resolveUserId();
-
         AccountEntity account = AccountEntity.builder()
                 .currencyCode(dto.getCurrencyCode())
-                .userId(userId)
+                .userId(dto.getUserId())
                 .balance(new BigDecimal(0))
                 .build();
 

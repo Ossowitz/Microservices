@@ -1,21 +1,21 @@
 package com.jkrotal.processing.model;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 
-import static jakarta.persistence.GenerationType.*;
+import static javax.persistence.GenerationType.IDENTITY;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "account")
+@Table(schema = "processing", name = "account")
 public class AccountEntity {
 
     @Id
