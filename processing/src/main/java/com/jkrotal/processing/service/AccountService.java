@@ -39,6 +39,8 @@ public class AccountService {
             BigDecimal balance = it.getBalance().add(money);
             it.setBalance(balance);
 
+            // TODO: publishEvent()
+
             return accountRepository.save(it);
         }).orElseThrow(() -> new AccountNotFoundException(accountId));
     }
