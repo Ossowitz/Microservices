@@ -44,4 +44,8 @@ public class AccountService {
             return accountRepository.save(it);
         }).orElseThrow(() -> new AccountNotFoundException(accountId));
     }
+
+    public AccountEntity getAccountById(Long id) {
+        return accountRepository.findById(id).orElseThrow(() -> new AccountNotFoundException(id));
+    }
 }
