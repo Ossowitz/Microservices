@@ -1,0 +1,10 @@
+version: '3'
+services:
+  currency-rate-service:
+    image: komapuh/currency-rate-service:latest
+    container_name: currency
+    ports:
+      - "8085:8085"
+      - "8787:8787"
+    environment:
+      - JAVA_OPTS=-Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8787,suspend=n
