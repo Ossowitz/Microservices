@@ -1,6 +1,5 @@
 server:
-  port: 8080
-
+  port: 8085
 
 currency:
   client:
@@ -9,3 +8,7 @@ currency:
 spring:
   application:
     name: currency-rate-service
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG

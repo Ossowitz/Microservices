@@ -1,13 +1,13 @@
 server:
   port: 8090
 
+cloud:
+  db-host: localhost
+  currency-url: http://localhost:8080
+
 service:
   currency:
-    url: http://localhost:8080
-
-eureka:
-  client:
-    enabled: true
+    url: ${cloud.currency-url}
 
 spring:
   application:
@@ -19,12 +19,16 @@ spring:
       ddl-auto: none
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/processing
+    url: jdbc:postgresql://${cloud.db-host}:5432/processing
     username: postgres
     password: masterkey
   flyway:
     enabled: true
     locations: classpath:db
-    url: jdbc:postgresql://localhost:5432/processing
+    url: jdbc:postgresql://${cloud.db-host}:5432/processing
     user: postgres
     password: masterkey
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
