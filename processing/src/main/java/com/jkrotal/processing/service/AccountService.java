@@ -6,12 +6,14 @@ import com.jkrotal.processing.model.AccountEntity;
 import com.jkrotal.processing.model.Operation;
 import com.jkrotal.processing.repository.AccountRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -19,6 +21,8 @@ import java.util.Optional;
 public class AccountService {
 
     private final AccountRepository accountRepository;
+
+    private static final Sort SORT_ID = Sort.by(Sort.Direction.ASC, "id");
 
     @Transactional
     public AccountEntity createNewAccount(NewAccountDTO dto) {
@@ -43,6 +47,10 @@ public class AccountService {
 
             return accountRepository.save(it);
         }).orElseThrow(() -> new AccountNotFoundException(accountId));
+    }
+
+    public List<AccountEntity> getAllAccounts() {
+        return accountRepository.getAll();
     }
 
     public AccountEntity getAccountById(Long id) {
