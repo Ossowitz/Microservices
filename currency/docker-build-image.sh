@@ -1,1 +1,1 @@
-docker-compose up --build
+docker build -t komapuh/currency-rate-service .
